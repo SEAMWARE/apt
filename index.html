@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>coraine apt repository</title>
+<style>
+  :root { --bg:#fff; --fg:#1d2330; --muted:#5b6475; --code-bg:#f3f5f8; --accent:#0b6bcb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14171d; --fg:#e6e9ef; --muted:#9aa3b2; --code-bg:#1f242d; --accent:#6cb2ff; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; margin:0; padding:2rem 1rem; }
+  main { max-width:46rem; margin:0 auto; }
+  h1 { font-size:1.6rem; margin:0 0 .4rem; }
+  p { color:var(--muted); }
+  pre { background:var(--code-bg); padding:1rem; border-radius:8px; overflow-x:auto; font-size:.88rem; }
+  a { color:var(--accent); }
+  table { border-collapse:collapse; } td { padding:.2rem 1rem .2rem 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>coraine apt repository</h1>
+<p>Signed Debian packages of <a href="https://github.com/SEAMWARE/coraine">coraine</a>, the NGSI-LD context broker.</p>
+
+<h2>Install</h2>
+<pre><code>curl -fsSL https://seamware.github.io/apt/coraine.gpg | sudo tee /usr/share/keyrings/coraine.gpg &gt; /dev/null
+echo "deb [signed-by=/usr/share/keyrings/coraine.gpg] https://seamware.github.io/apt $(. /etc/os-release; echo $VERSION_CODENAME) main" \
+  | sudo tee /etc/apt/sources.list.d/coraine.list
+sudo apt update &amp;&amp; sudo apt install coraine</code></pre>
+<p><code>coraine-dev</code> adds the exact source of the version and <code>coraine-build</code>, to build a broker of your own. Builds of a commit, between releases, are in the component <code>testing</code> instead of <code>main</code>.</p>
+
+<h2>Distributions</h2>
+<table>
+<tr><td>Ubuntu 26.04</td><td><code>resolute</code></td></tr>
+<tr><td>Ubuntu 24.04 LTS</td><td><code>noble</code></td></tr>
+<tr><td>Debian 13</td><td><code>trixie</code></td></tr>
+</table>
+<p>amd64 and arm64. Built and published by coraine's CI; nothing here is edited by hand. The signing key: <a href="coraine.asc">coraine.asc</a>.</p>
+</main>
+</body>
+</html>
