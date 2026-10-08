@@ -1,0 +1,50 @@
+Package: coraine
+Version: 0.4.0~git20261008.65be8c03+debian13
+Architecture: amd64
+Maintainer: Ken Zangelin <ken.zangelin@seamware.com>
+Installed-Size: 4984
+Depends: libc6 (>= 2.38), libgeos-c1t64 (>= 3.10.0), libmicrohttpd12t64 (>= 0.9.52), libmosquitto1 (>= 1.6), libpq5, libsasl2-2 (>= 2.1.28+dfsg1), libssl3t64 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), adduser
+Recommends: ca-certificates
+Homepage: https://github.com/SEAMWARE/coraine
+Priority: optional
+Section: net
+Filename: pool/testing/c/coraine/coraine_0.4.0~git20261008.65be8c03+debian13_amd64.deb
+Size: 1264296
+SHA256: 76fcacdc41b205d7a483e3312c47d23d02f4db1beca2b92d3edd6327480bb0b0
+SHA1: a0257073f8214d3ada106b07c59e6d15a638ef7b
+MD5sum: 4f4d19bbde12b5a4bc52d81d202b19d0
+Description: NGSI-LD context broker (ETSI GS CIM 009)
+ coraine is an NGSI-LD context broker: one binary and the plugins it loads at
+ startup. With its own store, corDB (in memory, and on disk with --dbDir), it
+ needs no external service; MongoDB and TimescaleDB are options.
+ .
+ This package holds the broker, coraine-import (moves another broker's
+ database into coraine's stores), the plugins - corDB, ramDB, mongoc,
+ timescale, the admin API, the WebSocket transport, the MQTT and Modbus
+ bridges - and the systemd unit coraine.service, installed but not enabled:
+ see /etc/default/coraine.
+ .
+ The MongoDB C driver v2 is bundled, privately, in /opt/seamware/lib.
+
+Package: coraine-dev
+Version: 0.4.0~git20261008.65be8c03+debian13
+Architecture: amd64
+Maintainer: Ken Zangelin <ken.zangelin@seamware.com>
+Installed-Size: 3704
+Depends: coraine (= 0.4.0~git20261008.65be8c03+debian13), build-essential, cmake, pkgconf, python3, curl, wrk, xz-utils, libssl-dev, libgeos-dev, libmosquitto-dev, libpq-dev, libmicrohttpd-dev, libzstd-dev, libsasl2-dev, zlib1g-dev, patchelf
+Homepage: https://github.com/SEAMWARE/coraine
+Priority: optional
+Section: devel
+Filename: pool/testing/c/coraine-dev/coraine-dev_0.4.0~git20261008.65be8c03+debian13_amd64.deb
+Size: 3137904
+SHA256: 1e66e0740bc4022cba22ed26e70cfb11ace2d98664b8d4fb57161f07a6ae1384
+SHA1: fa77cf8cb09c620148541f0680a30d07397961f9
+MD5sum: 6a743d285c5057afdd861460986d4e46
+Description: NGSI-LD context broker (ETSI GS CIM 009) - build your own
+ The exact source of the coraine package of the same version - coraine and
+ every Cor-Lib at the commits it was built from - in
+ /usr/share/coraine/src, the toolchain and libraries to build it, and
+ coraine-build: unpacks that source into a directory and builds a broker
+ there, with a choice of features, profile-guided or tuned to a workload,
+ release or debug.
+

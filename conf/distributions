@@ -1,0 +1,24 @@
+Origin: Seamware
+Label: coraine
+Codename: resolute
+Architectures: amd64 arm64
+Components: main testing
+Description: coraine NGSI-LD context broker - Ubuntu 26.04
+SignWith: CB27622F30407A75A8F4D19414CDE5DEF5F854FE
+
+Origin: Seamware
+Label: coraine
+Codename: noble
+Architectures: amd64 arm64
+Components: main testing
+Description: coraine NGSI-LD context broker - Ubuntu 24.04 LTS
+SignWith: CB27622F30407A75A8F4D19414CDE5DEF5F854FE
+
+Origin: Seamware
+Label: coraine
+Codename: trixie
+Architectures: amd64 arm64
+Components: main testing
+Description: coraine NGSI-LD context broker - Debian 13
+SignWith: CB27622F30407A75A8F4D19414CDE5DEF5F854FE
+

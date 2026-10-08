@@ -1,0 +1,5 @@
+Component: main
+Origin: Seamware
+Label: coraine
+Architecture: amd64
+Description: coraine NGSI-LD context broker - Ubuntu 24.04 LTS

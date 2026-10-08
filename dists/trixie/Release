@@ -1,0 +1,46 @@
+Origin: Seamware
+Label: coraine
+Codename: trixie
+Date: Thu, 08 Oct 2026 21:21:57 UTC
+Architectures: amd64 arm64
+Components: main testing
+Description: coraine NGSI-LD context broker - Debian 13
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 7e25a0fb2ee2f070814b4a0161f6a251 124 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 25f82ebeac6d6b6eae87f80dd82f80e2 124 main/binary-arm64/Release
+ 33b88a8e9b86f2e391f706db9c07af3b 2600 testing/binary-amd64/Packages
+ bff8a2907909895a13f5ff304085ce6f 1306 testing/binary-amd64/Packages.gz
+ deeb1abb5dcc8de727b61c17d09816ca 127 testing/binary-amd64/Release
+ 5ff984d2522bcc7bbeb9b5f5d39e5388 2600 testing/binary-arm64/Packages
+ 71786edd1be1b7d667d33bf728364196 1308 testing/binary-arm64/Packages.gz
+ 8303a06d268c2bda377692f83a72646d 127 testing/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 5a1e58c07e99b48788bcbfc4228df1519022cfd8 124 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 6160e661a2a988f2d3b4d25e22ad3bb5c4ad02c5 124 main/binary-arm64/Release
+ c46e46eb7f0bb235c34e72f3e56d1d1725d8f3f8 2600 testing/binary-amd64/Packages
+ 4fd924c0792c7b7abbc72976ca9cdf8c91b98479 1306 testing/binary-amd64/Packages.gz
+ c4991791cadf976c9e42372cff5cd5defc859902 127 testing/binary-amd64/Release
+ 6f5422bd7293a8e586ddeafde7ab7485311c5af0 2600 testing/binary-arm64/Packages
+ d6f26c823228f788330d54f9e21eff925ce07c22 1308 testing/binary-arm64/Packages.gz
+ 822391de0172a534388781ef8db7f0e53555f561 127 testing/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 414fc88203cc9558c997f97487a50e8b9b4b920fc3394d5176322f56e1ffa0ee 124 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ afde033a04ab9d15af6b62fc8e8416461d8b23293f101b2cfcf8c7e763d3c794 124 main/binary-arm64/Release
+ b6ceff780142e2785d9b4c7b0e030dae72be1173ef61b6653761e6f61c44ba64 2600 testing/binary-amd64/Packages
+ aa5f9c3b58d1481ce5a424b868e31a815c0243183124ff24ee3371a4195dcdaf 1306 testing/binary-amd64/Packages.gz
+ 52e18b13a8681133ec8b95194a5ee8a36f3d348a115b5aed41e51a1b9e03eed2 127 testing/binary-amd64/Release
+ 5cfa760733e6aa4cb44cab2ccaba21f7d10d54e89fc12426aae7bcd03ba68404 2600 testing/binary-arm64/Packages
+ 3e2333944096c09433a30d51975b0c7334cb2a9848003a05091e772269d8d9c5 1308 testing/binary-arm64/Packages.gz
+ bee43d5e81a6b5f073c79dc3fbf7ce0bc5898a188764b082c22aff14d8feb506 127 testing/binary-arm64/Release

@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Seamware
+Label: coraine
+Codename: noble
+Date: Thu, 08 Oct 2026 21:21:57 UTC
+Architectures: amd64 arm64
+Components: main testing
+Description: coraine NGSI-LD context broker - Ubuntu 24.04 LTS
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 1f11fb863af8ff70e89309fd499c1ff1 131 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 68383ae617e06f9aa2c522bc276834d4 131 main/binary-arm64/Release
+ b25507885d3bac068bf3773eebbc6052 2615 testing/binary-amd64/Packages
+ a053ef814c976e6c791e82457c312f9d 1306 testing/binary-amd64/Packages.gz
+ 941f10031ed0c0bb6179bbbef7c1997a 134 testing/binary-amd64/Release
+ a74bd75b994b1375493ed05b6917c7e6 2615 testing/binary-arm64/Packages
+ 38a2013ae72bf05895125a7dded47077 1304 testing/binary-arm64/Packages.gz
+ d0c4ea21008d397ab85b36da97f5a9c7 134 testing/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ d06b46fe43bc0ec9f4e16ef2d6fd4b4f27f150cd 131 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 9071032f2352ee295c445931e8acdf4ffe7bf642 131 main/binary-arm64/Release
+ 2076b35b2f4a93391e7e8330ae0cd0bc9eb81635 2615 testing/binary-amd64/Packages
+ 78f84747a517c0a8f92e77397325a66380632f20 1306 testing/binary-amd64/Packages.gz
+ a78828d9cf8804c9428023f4b55f8221cf0ead0c 134 testing/binary-amd64/Release
+ 39fe376f3a1fe5fc1881aa2d0e70af70d67135bd 2615 testing/binary-arm64/Packages
+ 0753671b56e6b05da7d34a5eae3aae4b0fda9b11 1304 testing/binary-arm64/Packages.gz
+ 62283486887a3e23278d9538a6de72f14d217ef5 134 testing/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 5c0b93491d54f9128d3fd544430806bbae60fb3cf0eca1f48c4e10fd4bdc2f23 131 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 0aff2979b70cc9b7e78825eb6b6f4cf7a06e69db6939d94783619e69f9d4264c 131 main/binary-arm64/Release
+ ad69875042d682f4ebc557b31af38dc2345748eebfd38d5165bbae3fcfd0e9a2 2615 testing/binary-amd64/Packages
+ 063c3555735264edfb6ac417054d28fd556e55adfc78529375f5ba118423a24e 1306 testing/binary-amd64/Packages.gz
+ 621a430e1187825d827c201086502a90e99a32bcf26e2b1bdf87be59209c092b 134 testing/binary-amd64/Release
+ 399e8a080123a46c23c853dd53d8cb84dec119147867c30dafbd4d752f52f85e 2615 testing/binary-arm64/Packages
+ aa8be18c75dbcbc63a2749436229ff9d1ea8408a7c8ce5e1d608b620df177f42 1304 testing/binary-arm64/Packages.gz
+ 6c9a1214147a2a0bbf45f506fc935d0b059fbaa0e7bb1526b4e4b6580f696190 134 testing/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCasgJdQAKCRAUzeXe9fhU
+/uYrAQCd/N7z+iTY0FqQzz+WZxV412igif4FcH+i3ehW/EFvrgEAl8GuxEKMuv8M
+/SZ2GqPq8EorKfM+Yt3YkNhkiD7mNAo=
+=I5Ou
+-----END PGP SIGNATURE-----
