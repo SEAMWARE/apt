@@ -4,16 +4,16 @@ Hash: SHA512
 Origin: Seamware
 Label: coraine
 Codename: trixie
-Date: Thu, 08 Oct 2026 21:21:57 UTC
+Date: Sat, 10 Oct 2026 16:18:07 UTC
 Architectures: amd64 arm64
 Components: main testing
 Description: coraine NGSI-LD context broker - Debian 13
 MD5Sum:
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 1408368b8a50a506853b9a2ac13ec3c0 2489 main/binary-amd64/Packages
+ 37f7faad5b92758d379756d0c00afd61 1287 main/binary-amd64/Packages.gz
  7e25a0fb2ee2f070814b4a0161f6a251 124 main/binary-amd64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 606be2a692eb63ccef74d9298836e75b 2489 main/binary-arm64/Packages
+ 984488ee28957bc3f17cbd652e57c7f3 1286 main/binary-arm64/Packages.gz
  25f82ebeac6d6b6eae87f80dd82f80e2 124 main/binary-arm64/Release
  33b88a8e9b86f2e391f706db9c07af3b 2600 testing/binary-amd64/Packages
  bff8a2907909895a13f5ff304085ce6f 1306 testing/binary-amd64/Packages.gz
@@ -22,11 +22,11 @@ MD5Sum:
  71786edd1be1b7d667d33bf728364196 1308 testing/binary-arm64/Packages.gz
  8303a06d268c2bda377692f83a72646d 127 testing/binary-arm64/Release
 SHA1:
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 93126ae0c6febb30985aa0f4cf1b1d106a3d77d9 2489 main/binary-amd64/Packages
+ fe3d13d7626d941040732bc62b5bb9dce2f3194f 1287 main/binary-amd64/Packages.gz
  5a1e58c07e99b48788bcbfc4228df1519022cfd8 124 main/binary-amd64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 55c447cad31c10bb61280afeb969547945c3e2e3 2489 main/binary-arm64/Packages
+ 0e1ffb8468c32d1c7457ebd05d15390201f9e923 1286 main/binary-arm64/Packages.gz
  6160e661a2a988f2d3b4d25e22ad3bb5c4ad02c5 124 main/binary-arm64/Release
  c46e46eb7f0bb235c34e72f3e56d1d1725d8f3f8 2600 testing/binary-amd64/Packages
  4fd924c0792c7b7abbc72976ca9cdf8c91b98479 1306 testing/binary-amd64/Packages.gz
@@ -35,11 +35,11 @@ SHA1:
  d6f26c823228f788330d54f9e21eff925ce07c22 1308 testing/binary-arm64/Packages.gz
  822391de0172a534388781ef8db7f0e53555f561 127 testing/binary-arm64/Release
 SHA256:
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ b1c0258f312c1f1d3db111143365ac24a292327354863a99109a70efec69fda8 2489 main/binary-amd64/Packages
+ 21b14159b5dbd1ae5c9cf6f1ae665f914a4203ab198c6609a86ca7b0e121946f 1287 main/binary-amd64/Packages.gz
  414fc88203cc9558c997f97487a50e8b9b4b920fc3394d5176322f56e1ffa0ee 124 main/binary-amd64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 138e7aaa5ed97863899b625f7afd6b053855a4edc1a7951b72775f109d60b2b6 2489 main/binary-arm64/Packages
+ 892c14a8f268efd97f9bb53d4cfd7fc767bbd01997d8b40b2d73ebe96de3aca6 1286 main/binary-arm64/Packages.gz
  afde033a04ab9d15af6b62fc8e8416461d8b23293f101b2cfcf8c7e763d3c794 124 main/binary-arm64/Release
  b6ceff780142e2785d9b4c7b0e030dae72be1173ef61b6653761e6f61c44ba64 2600 testing/binary-amd64/Packages
  aa5f9c3b58d1481ce5a424b868e31a815c0243183124ff24ee3371a4195dcdaf 1306 testing/binary-amd64/Packages.gz
@@ -49,8 +49,8 @@ SHA256:
  bee43d5e81a6b5f073c79dc3fbf7ce0bc5898a188764b082c22aff14d8feb506 127 testing/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCasgJdQAKCRAUzeXe9fhU
-/hVlAPoDsfCIaAAwiVts+Z1iVdhXnfxGqJ0lBBREkqx6jS90/wEA1uDwGZsCdZ4g
-oKssg4d4aCNckxTfgxXYzp7GyIfFNAA=
-=6dtK
+iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCasplPwAKCRAUzeXe9fhU
+/v7PAQDPQGkaRSJLupu/2fC64Rmj8Mg11wAhfpy9nM3qrVcWkQEAuiTdP+ULz1SE
+SPeYWoKrK4QY+sM9lkxv+bz/W7qUCww=
+=q7Of
 -----END PGP SIGNATURE-----
