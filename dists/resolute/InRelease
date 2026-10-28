@@ -4,16 +4,16 @@ Hash: SHA512
 Origin: Seamware
 Label: coraine
 Codename: resolute
-Date: Wed, 28 Oct 2026 16:17:18 UTC
+Date: Wed, 28 Oct 2026 19:28:11 UTC
 Architectures: amd64 arm64
 Components: main testing
 Description: coraine NGSI-LD context broker - Ubuntu 26.04
 MD5Sum:
- bfd21af5771f4e3068addf5482b6759d 2604 main/binary-amd64/Packages
- a74f01d3a494cc1319736be3fa59bc9a 1334 main/binary-amd64/Packages.gz
+ 244db2edb634b15946666abb60bc8793 2614 main/binary-amd64/Packages
+ de992d4edd6b4769d4550d44f4a9a590 1340 main/binary-amd64/Packages.gz
  2130ce41d7f53d620e27fde7350a2b55 127 main/binary-amd64/Release
- 0383f0b76e89dab0b9eb50fdd09da648 2605 main/binary-arm64/Packages
- 54cc8ab164da3cd7aff43273d64261e4 1335 main/binary-arm64/Packages.gz
+ 6a3e75e665e48c581560e2ce8f7047d1 2615 main/binary-arm64/Packages
+ cee608c21672e1ed74ef2086d2e2ebba 1334 main/binary-arm64/Packages.gz
  16a8112d8e7c75a9c672eb32aaf72795 127 main/binary-arm64/Release
  c695afaf211e6867c27a82901f486413 2532 testing/binary-amd64/Packages
  dfe33aa29a09790c3606566e63f626d7 1255 testing/binary-amd64/Packages.gz
@@ -22,11 +22,11 @@ MD5Sum:
  fec124daa60d0e76eaac6c1252940783 1255 testing/binary-arm64/Packages.gz
  380e1701d9e32f0da458ff5cae277c58 130 testing/binary-arm64/Release
 SHA1:
- 85ba5db43ff729bf393f85f556d7b52ce6b3b779 2604 main/binary-amd64/Packages
- 75b220935fad84c0d920327d05c143abafb8f0a9 1334 main/binary-amd64/Packages.gz
+ 1c0244cfb6094cef908a94ece8e0eac43b60495f 2614 main/binary-amd64/Packages
+ 7f8724472741823014815a9e918ab543ea7fe980 1340 main/binary-amd64/Packages.gz
  99c2f174d8a5525e8504b82201a2b41e1f173c6c 127 main/binary-amd64/Release
- 4ab1a87d8f5f5bfa1e71b6b42327d51da67724a0 2605 main/binary-arm64/Packages
- 0b3efba1c3c26bc1c886ce0feb505e725ccbd1f1 1335 main/binary-arm64/Packages.gz
+ 403d1d2d2e2aa742b463512151b0321fc505753f 2615 main/binary-arm64/Packages
+ d942b358eb3068a97bb4aa5f11db63672feab7dc 1334 main/binary-arm64/Packages.gz
  bef5c578e1bcfddcd9f20178fe74f7785a4be95b 127 main/binary-arm64/Release
  5c61e7aa16d4d4a8e625abb60d2b305d313d0b8d 2532 testing/binary-amd64/Packages
  e21ce29a0d9c47478d68bdfb84430a57c7ffced8 1255 testing/binary-amd64/Packages.gz
@@ -35,11 +35,11 @@ SHA1:
  dde7bfa41b1a6e026a643fc37d2c7bf9008794b2 1255 testing/binary-arm64/Packages.gz
  062c3e54de9784c06d871da1ca4d6c0632126d6b 130 testing/binary-arm64/Release
 SHA256:
- b487e9a7f35754aa0996b623fb559729d728ee166189855301e507578a1b5c50 2604 main/binary-amd64/Packages
- 1337fb9954925d5bc7df14bc3fa2e1734f77e831c945185f45db54e703f3036e 1334 main/binary-amd64/Packages.gz
+ 6d0836b2e79f3ad5857ed951418ee358ce7efae6b91c436dcc4952ea1ff033d2 2614 main/binary-amd64/Packages
+ 10d1e42af1177a66cc03c0eebfce1412597d4870e91c5fe2e2bc2d3a494e31ac 1340 main/binary-amd64/Packages.gz
  07ff9bc1ea2db884eb7f06387b9a91c66fd40c8ffff0cb412b147a2823438454 127 main/binary-amd64/Release
- a470c670a460763c31e46553b7a42f0900fc6c5b9b53ae99a7a49035893b077b 2605 main/binary-arm64/Packages
- 2cb50d6acfc98e130f459aeb510e20f9a20f462b0bd5471158c84904b7badb2e 1335 main/binary-arm64/Packages.gz
+ c59614d0601609edd1fa3e514801a6f83f125b4cb95fbbd4d6d2e820551d54f0 2615 main/binary-arm64/Packages
+ 631f3125ae5aa24d7276694cacaa1e6e3106bfb5e80c308cce047f7a0d9f1502 1334 main/binary-arm64/Packages.gz
  d3e3f0624478da15a79d73ca65c6923a128b1e1fa9ee57cdadbef69f62ef9cc0 127 main/binary-arm64/Release
  e8b978cde2dbe60b7113bc2d9f5ee4535aa1e7819a919a6697260aab68944f19 2532 testing/binary-amd64/Packages
  260835eb91ffc7247a1fd96a8778dd85193e7df3a9e26b087d103b49dedd035a 1255 testing/binary-amd64/Packages.gz
@@ -49,8 +49,8 @@ SHA256:
  ce25c300105a015eb65b0dd617c46cd3ad58b891822e908a6e7078db2af03ae0 130 testing/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCauIgDgAKCRAUzeXe9fhU
-/vY0AP90qdLcVasFEgY/AuecA6OKbXS8lwi6/ZOpouY4nPfoxgEA8wf4nkE7zAgB
-W05Ld5m+nWTd2CLzCgAMvhKsYoKmpgU=
-=cSCT
+iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCauJMywAKCRAUzeXe9fhU
+/o0/AP0fvf1tCCzxSsLN+Tt1WmCfIUG7ZpJWL2r88Sma8C8P1QD+Ksf8bpf32zF/
+cKU+UKKc9R+QC8r3TgO6r5X1AC2Sywc=
+=dCAk
 -----END PGP SIGNATURE-----

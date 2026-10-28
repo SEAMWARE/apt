@@ -4,16 +4,16 @@ Hash: SHA512
 Origin: Seamware
 Label: coraine
 Codename: noble
-Date: Wed, 28 Oct 2026 16:17:18 UTC
+Date: Wed, 28 Oct 2026 19:28:11 UTC
 Architectures: amd64 arm64
 Components: main testing
 Description: coraine NGSI-LD context broker - Ubuntu 24.04 LTS
 MD5Sum:
- ec9e6b2f305511b6411f71900f76820c 2666 main/binary-amd64/Packages
- 34dff2e1fb24abf40d4ad1ccad520588 1374 main/binary-amd64/Packages.gz
+ 47d36f1ea2f2562d9de4a670572819b7 2676 main/binary-amd64/Packages
+ 69bd3ec06e995745390004e71f57871b 1378 main/binary-amd64/Packages.gz
  1f11fb863af8ff70e89309fd499c1ff1 131 main/binary-amd64/Release
- c0a6ac2dae91a8680d346ca3b2d73074 2666 main/binary-arm64/Packages
- 6cdda679fabe2d60be95eafc55486a28 1378 main/binary-arm64/Packages.gz
+ 0f4daa8c2cdaeebda6de181944f375a1 2676 main/binary-arm64/Packages
+ aae38daba8cd866352eed580f3de72b2 1377 main/binary-arm64/Packages.gz
  68383ae617e06f9aa2c522bc276834d4 131 main/binary-arm64/Release
  b25507885d3bac068bf3773eebbc6052 2615 testing/binary-amd64/Packages
  a053ef814c976e6c791e82457c312f9d 1306 testing/binary-amd64/Packages.gz
@@ -22,11 +22,11 @@ MD5Sum:
  38a2013ae72bf05895125a7dded47077 1304 testing/binary-arm64/Packages.gz
  d0c4ea21008d397ab85b36da97f5a9c7 134 testing/binary-arm64/Release
 SHA1:
- dbd24bc314900ad362a5169ebecd098e19281820 2666 main/binary-amd64/Packages
- 42155ba1a496ebea3809eae71a1af868bdcf724c 1374 main/binary-amd64/Packages.gz
+ d5af3198cc3a87df56209f053c5321d20b84b4a3 2676 main/binary-amd64/Packages
+ acc953ee6f088e1842012dc558e03e75c7378c24 1378 main/binary-amd64/Packages.gz
  d06b46fe43bc0ec9f4e16ef2d6fd4b4f27f150cd 131 main/binary-amd64/Release
- 9d262046a7ad4ed2a8113d6fe1ee46cab4889628 2666 main/binary-arm64/Packages
- 510e24066df6b77745c0e644dc40e8205cd8023c 1378 main/binary-arm64/Packages.gz
+ a6f1cbb06f4c874c46d70d549a960e2c2a9a1301 2676 main/binary-arm64/Packages
+ 9d261de9cb67b583ba786721444bc0f0cccc4197 1377 main/binary-arm64/Packages.gz
  9071032f2352ee295c445931e8acdf4ffe7bf642 131 main/binary-arm64/Release
  2076b35b2f4a93391e7e8330ae0cd0bc9eb81635 2615 testing/binary-amd64/Packages
  78f84747a517c0a8f92e77397325a66380632f20 1306 testing/binary-amd64/Packages.gz
@@ -35,11 +35,11 @@ SHA1:
  0753671b56e6b05da7d34a5eae3aae4b0fda9b11 1304 testing/binary-arm64/Packages.gz
  62283486887a3e23278d9538a6de72f14d217ef5 134 testing/binary-arm64/Release
 SHA256:
- b45b3a6886ef57484595626d4c861688353d581ad390016dc2a3e79bc9697880 2666 main/binary-amd64/Packages
- a3f4e54c929aae2f6bce6eae8d47ab88ae85dce9a499acd6311311c7f65b37c8 1374 main/binary-amd64/Packages.gz
+ 6b256ba912c53337d599e40bed3dc0439cf0137099736da1ed4598004f9ea867 2676 main/binary-amd64/Packages
+ 125407d35c1580b348d86391ce33b32ad03991cd9dddd8044d8a17712d5ada73 1378 main/binary-amd64/Packages.gz
  5c0b93491d54f9128d3fd544430806bbae60fb3cf0eca1f48c4e10fd4bdc2f23 131 main/binary-amd64/Release
- 7a02837c9472a733d924ce438dbb8d1a7fbe2c226914ce6809546421592d02c6 2666 main/binary-arm64/Packages
- 29d0eb33b35235a9bc88f23ab28a3d64310b6194ab57076e10370d2c1f552f8a 1378 main/binary-arm64/Packages.gz
+ ca642d8ffc46c43348387f088214f1f624ff66b9167356a6e06a136f572e9224 2676 main/binary-arm64/Packages
+ dd009d80741c94f1acea79e47b3e18893f557a6cdafa75874d3d319b443f08aa 1377 main/binary-arm64/Packages.gz
  0aff2979b70cc9b7e78825eb6b6f4cf7a06e69db6939d94783619e69f9d4264c 131 main/binary-arm64/Release
  ad69875042d682f4ebc557b31af38dc2345748eebfd38d5165bbae3fcfd0e9a2 2615 testing/binary-amd64/Packages
  063c3555735264edfb6ac417054d28fd556e55adfc78529375f5ba118423a24e 1306 testing/binary-amd64/Packages.gz
@@ -49,8 +49,8 @@ SHA256:
  6c9a1214147a2a0bbf45f506fc935d0b059fbaa0e7bb1526b4e4b6580f696190 134 testing/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCauIgDgAKCRAUzeXe9fhU
-/twOAQCnxguMnhfIfo/KrBz6a6VUTU5yDmgO+3d/iqsIx8di1wEAqtg1pnt+drGJ
-ggPDZ5FipaX2/YQZ2ofrlbDyLchjDAI=
-=qsQJ
+iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCauJMywAKCRAUzeXe9fhU
+/m/OAQDYk+nDioz/IsSRHYORES7KFnlI7lIoGLgtycJYa9ySugEA13qTm9Gm4Y2P
+e29LvSymxj39hrP8rzgtzov6cq8clQ8=
+=ca2W
 -----END PGP SIGNATURE-----

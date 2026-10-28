@@ -1,18 +1,18 @@
 Package: coraine
-Version: 0.6.1+debian13
+Version: 0.6.1+debian13.1
 Architecture: amd64
 Maintainer: Ken Zangelin <ken.zangelin@seamware.com>
-Installed-Size: 10928
+Installed-Size: 11128
 Depends: libc6 (>= 2.38), libgeos-c1t64 (>= 3.10.0), libmicrohttpd12t64 (>= 0.9.52), libmosquitto1 (>= 1.6), libpq5 (>= 8.3~rc1-1~), libsasl2-2 (>= 2.1.28+dfsg1), libssl3t64 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), adduser
 Recommends: ca-certificates
 Homepage: https://github.com/SEAMWARE/coraine
 Priority: optional
 Section: net
-Filename: pool/main/c/coraine/coraine_0.6.1+debian13_amd64.deb
-Size: 2602828
-SHA256: 2e22230a333c9df377916ff5947a974c6ccfab44372494e13a4846ce926fd709
-SHA1: 04d4b770f8dae8c90941c875be8339a1db1cc101
-MD5sum: af138a334a0e7d10cc8b2caaee4b310c
+Filename: pool/main/c/coraine/coraine_0.6.1+debian13.1_amd64.deb
+Size: 2762500
+SHA256: 659affb8e687224b7c86d924ae40270efc26f3ec28ed26c8150f5fc0a06adebd
+SHA1: be887da9e43507e987f12b1a262da07ae26d4812
+MD5sum: 549a888aebcd0039ee849a0b08169564
 Description: NGSI-LD context broker (ETSI GS CIM 009)
  coraine is an NGSI-LD context broker: one binary and the plugins it loads at
  startup. With its own store, corDB (in memory, and on disk with --dbDir), it
@@ -29,19 +29,19 @@ Description: NGSI-LD context broker (ETSI GS CIM 009)
  The MongoDB C driver v2 is bundled, privately, in /opt/seamware/lib.
 
 Package: coraine-dev
-Version: 0.6.1+debian13
+Version: 0.6.1+debian13.1
 Architecture: amd64
 Maintainer: Ken Zangelin <ken.zangelin@seamware.com>
-Installed-Size: 5464
-Depends: coraine (= 0.6.1+debian13), build-essential, cmake, pkgconf, python3, curl, wrk, xz-utils, libssl-dev, libgeos-dev, libmosquitto-dev, libpq-dev, libmicrohttpd-dev, libzstd-dev, libsasl2-dev, zlib1g-dev, patchelf
+Installed-Size: 5620
+Depends: coraine (= 0.6.1+debian13.1), build-essential, cmake, pkgconf, python3, curl, wrk, xz-utils, libssl-dev, libgeos-dev, libmosquitto-dev, libpq-dev, libmicrohttpd-dev, libzstd-dev, libsasl2-dev, zlib1g-dev, patchelf
 Homepage: https://github.com/SEAMWARE/coraine
 Priority: optional
 Section: devel
-Filename: pool/main/c/coraine-dev/coraine-dev_0.6.1+debian13_amd64.deb
-Size: 4931408
-SHA256: 78857943750d79a64303a7b63ab55490200ed42c801aaf7b4de8fbc6b3bd087b
-SHA1: 8947cfdd1a1f852f7202ad865dbfefd198cb3a3a
-MD5sum: f79cc222e980c8965a6c9b5c00e11ee5
+Filename: pool/main/c/coraine-dev/coraine-dev_0.6.1+debian13.1_amd64.deb
+Size: 5092104
+SHA256: 167893559568f9218b13d56d40e2d419365a5246ac7308cd07a5b24cb809be70
+SHA1: 03974314acd3add21caffdf907eede2ed4f387c0
+MD5sum: 4e8e0db46c2cfa08029c79f49907cd4e
 Description: NGSI-LD context broker (ETSI GS CIM 009) - build your own
  The exact source of the coraine package of the same version - coraine and
  every Cor-Lib at the commits it was built from - in
