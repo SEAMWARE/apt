@@ -1,5 +1,5 @@
 Package: coraine
-Version: 0.6.0+ubuntu24.04
+Version: 0.6.1+ubuntu24.04
 Architecture: arm64
 Maintainer: Ken Zangelin <ken.zangelin@seamware.com>
 Installed-Size: 11920
@@ -8,11 +8,11 @@ Recommends: ca-certificates
 Homepage: https://github.com/SEAMWARE/coraine
 Priority: optional
 Section: net
-Filename: pool/main/c/coraine/coraine_0.6.0+ubuntu24.04_arm64.deb
-Size: 2510668
-SHA256: 2d88b0a2359f7f600329d61f7f3f580a70fc036afdd1b7220cfe12dfc12f43e2
-SHA1: 3933d10c37e498713706e16b2e8f90462f46ab89
-MD5sum: 9c96a06e098c5a827f3757cd90d6ce54
+Filename: pool/main/c/coraine/coraine_0.6.1+ubuntu24.04_arm64.deb
+Size: 2512420
+SHA256: fde84dcd03977021dbf46ccffb943b957792e1aac3a5bd8baa8379de68c982c1
+SHA1: 88d458e0eda1b68e9841a948e901025e89500d61
+MD5sum: 5a5faf6b5062e1eeaca00ce703882399
 Description: NGSI-LD context broker (ETSI GS CIM 009)
  coraine is an NGSI-LD context broker: one binary and the plugins it loads at
  startup. With its own store, corDB (in memory, and on disk with --dbDir), it
@@ -29,19 +29,19 @@ Description: NGSI-LD context broker (ETSI GS CIM 009)
  The MongoDB C driver v2 is bundled, privately, in /opt/seamware/lib.
 
 Package: coraine-dev
-Version: 0.6.0+ubuntu24.04
+Version: 0.6.1+ubuntu24.04
 Architecture: arm64
 Maintainer: Ken Zangelin <ken.zangelin@seamware.com>
 Installed-Size: 5464
-Depends: coraine (= 0.6.0+ubuntu24.04), build-essential, cmake, pkgconf, python3, curl, wrk, xz-utils, libssl-dev, libgeos-dev, libmosquitto-dev, libpq-dev, libmicrohttpd-dev, libzstd-dev, libsasl2-dev, zlib1g-dev, patchelf
+Depends: coraine (= 0.6.1+ubuntu24.04), build-essential, cmake, pkgconf, python3, curl, wrk, xz-utils, libssl-dev, libgeos-dev, libmosquitto-dev, libpq-dev, libmicrohttpd-dev, libzstd-dev, libsasl2-dev, zlib1g-dev, patchelf
 Homepage: https://github.com/SEAMWARE/coraine
 Priority: optional
 Section: devel
-Filename: pool/main/c/coraine-dev/coraine-dev_0.6.0+ubuntu24.04_arm64.deb
-Size: 4931200
-SHA256: 34ac6b79efbeeabcdd29b9380227c64ddb27092497f48b1a03024e2f4df32503
-SHA1: 9145327d8d38d674ac73ab5cc837863ffc8518b9
-MD5sum: 8e609f57dfd1d96d897d6cf8f240c70d
+Filename: pool/main/c/coraine-dev/coraine-dev_0.6.1+ubuntu24.04_arm64.deb
+Size: 4931356
+SHA256: a829dc070203abb7e4821438975fc65b5d99fa55607082e2d9fb3631e784c27a
+SHA1: 192da98721c0353fd4b0a61d419177b90e30fe2e
+MD5sum: 711b598f7639a60c15b963aa1a429271
 Description: NGSI-LD context broker (ETSI GS CIM 009) - build your own
  The exact source of the coraine package of the same version - coraine and
  every Cor-Lib at the commits it was built from - in

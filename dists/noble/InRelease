@@ -4,16 +4,16 @@ Hash: SHA512
 Origin: Seamware
 Label: coraine
 Codename: noble
-Date: Wed, 28 Oct 2026 12:00:38 UTC
+Date: Wed, 28 Oct 2026 16:17:18 UTC
 Architectures: amd64 arm64
 Components: main testing
 Description: coraine NGSI-LD context broker - Ubuntu 24.04 LTS
 MD5Sum:
- a345aab04b2c7ffab3696d9222fe99e4 2666 main/binary-amd64/Packages
- 46edaa05148ca2e289c0458c26a7ac27 1375 main/binary-amd64/Packages.gz
+ ec9e6b2f305511b6411f71900f76820c 2666 main/binary-amd64/Packages
+ 34dff2e1fb24abf40d4ad1ccad520588 1374 main/binary-amd64/Packages.gz
  1f11fb863af8ff70e89309fd499c1ff1 131 main/binary-amd64/Release
- ce2904aaaa1727c13701c9372fa238fa 2666 main/binary-arm64/Packages
- 9000a5b2a35471840c8e03e44149acec 1377 main/binary-arm64/Packages.gz
+ c0a6ac2dae91a8680d346ca3b2d73074 2666 main/binary-arm64/Packages
+ 6cdda679fabe2d60be95eafc55486a28 1378 main/binary-arm64/Packages.gz
  68383ae617e06f9aa2c522bc276834d4 131 main/binary-arm64/Release
  b25507885d3bac068bf3773eebbc6052 2615 testing/binary-amd64/Packages
  a053ef814c976e6c791e82457c312f9d 1306 testing/binary-amd64/Packages.gz
@@ -22,11 +22,11 @@ MD5Sum:
  38a2013ae72bf05895125a7dded47077 1304 testing/binary-arm64/Packages.gz
  d0c4ea21008d397ab85b36da97f5a9c7 134 testing/binary-arm64/Release
 SHA1:
- a9cc6e1d359a5b383e1e0be51196db50aacce7f5 2666 main/binary-amd64/Packages
- 42d5c21c952facc19e8283a46921f12479b50207 1375 main/binary-amd64/Packages.gz
+ dbd24bc314900ad362a5169ebecd098e19281820 2666 main/binary-amd64/Packages
+ 42155ba1a496ebea3809eae71a1af868bdcf724c 1374 main/binary-amd64/Packages.gz
  d06b46fe43bc0ec9f4e16ef2d6fd4b4f27f150cd 131 main/binary-amd64/Release
- ed64baef691989cc3db5fdd87a410f8de1b9b332 2666 main/binary-arm64/Packages
- d5ed5ef701f913abade86cdb58323505010c5115 1377 main/binary-arm64/Packages.gz
+ 9d262046a7ad4ed2a8113d6fe1ee46cab4889628 2666 main/binary-arm64/Packages
+ 510e24066df6b77745c0e644dc40e8205cd8023c 1378 main/binary-arm64/Packages.gz
  9071032f2352ee295c445931e8acdf4ffe7bf642 131 main/binary-arm64/Release
  2076b35b2f4a93391e7e8330ae0cd0bc9eb81635 2615 testing/binary-amd64/Packages
  78f84747a517c0a8f92e77397325a66380632f20 1306 testing/binary-amd64/Packages.gz
@@ -35,11 +35,11 @@ SHA1:
  0753671b56e6b05da7d34a5eae3aae4b0fda9b11 1304 testing/binary-arm64/Packages.gz
  62283486887a3e23278d9538a6de72f14d217ef5 134 testing/binary-arm64/Release
 SHA256:
- 3357b33701d6ed724008e6f37327a6aa6f9b1b46006b0accbb706ba8372cc958 2666 main/binary-amd64/Packages
- 88d0731f1ba2b857cacdbf4cd6dfbfbf4b27c4fd3bcca9d9f248df923ef4b595 1375 main/binary-amd64/Packages.gz
+ b45b3a6886ef57484595626d4c861688353d581ad390016dc2a3e79bc9697880 2666 main/binary-amd64/Packages
+ a3f4e54c929aae2f6bce6eae8d47ab88ae85dce9a499acd6311311c7f65b37c8 1374 main/binary-amd64/Packages.gz
  5c0b93491d54f9128d3fd544430806bbae60fb3cf0eca1f48c4e10fd4bdc2f23 131 main/binary-amd64/Release
- d86cd2065d40eaa8fff9185a28ad39e490ab68d50762a02e1db60bdc26ef1861 2666 main/binary-arm64/Packages
- 67cffc2a97bfac39db757822030596beea95d4e54560b25d8c4f3f9afd2a30fc 1377 main/binary-arm64/Packages.gz
+ 7a02837c9472a733d924ce438dbb8d1a7fbe2c226914ce6809546421592d02c6 2666 main/binary-arm64/Packages
+ 29d0eb33b35235a9bc88f23ab28a3d64310b6194ab57076e10370d2c1f552f8a 1378 main/binary-arm64/Packages.gz
  0aff2979b70cc9b7e78825eb6b6f4cf7a06e69db6939d94783619e69f9d4264c 131 main/binary-arm64/Release
  ad69875042d682f4ebc557b31af38dc2345748eebfd38d5165bbae3fcfd0e9a2 2615 testing/binary-amd64/Packages
  063c3555735264edfb6ac417054d28fd556e55adfc78529375f5ba118423a24e 1306 testing/binary-amd64/Packages.gz
@@ -49,8 +49,8 @@ SHA256:
  6c9a1214147a2a0bbf45f506fc935d0b059fbaa0e7bb1526b4e4b6580f696190 134 testing/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCauHj5wAKCRAUzeXe9fhU
-/vmYAQD74uIN61vx84x5+Zyfpa+H5IRG7lkgX87M/gNMSqBxIQD/b112Zq7g0gGx
-ZZbCJxh5bdp7u+e+vGTbU0ZaVx4LDwM=
-=FIXm
+iHUEARYKAB0WIQTLJ2IvMEB6daj00ZQUzeXe9fhU/gUCauIgDgAKCRAUzeXe9fhU
+/twOAQCnxguMnhfIfo/KrBz6a6VUTU5yDmgO+3d/iqsIx8di1wEAqtg1pnt+drGJ
+ggPDZ5FipaX2/YQZ2ofrlbDyLchjDAI=
+=qsQJ
 -----END PGP SIGNATURE-----
